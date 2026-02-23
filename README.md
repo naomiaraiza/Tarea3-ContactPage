@@ -23,6 +23,7 @@ En este reto deberás desarrollar una página de contacto utilizando HTML y CSS.
 ## 🔗 Enlace al proyecto
 Repositorio en GitHub: https://github.com/naomiaraiza/Tarea3-ContactPage.git  
 Deploy: [LINK](http://yomidev.github.io/newsletter/)
+link:https://naomiaraiza.github.io/Tarea3-ContactPage/
 ---
 
 ## 📝 Reflexión
