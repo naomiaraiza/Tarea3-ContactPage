@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/Logo.svg" alt="Logo" class="logo">
+  </header>
+
+  <main>
+    <h1>Interested in our business pricing?</h1>
+    <p class="subtitle">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+
+    <form class="container">
+      <div class="form-row">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Ethan Johnson" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Company Email</label>
+          <input type="email" id="email" placeholder="Ethan@Johnson.com" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-group">
+          <label for="CompanySize">Company Size</label>
+          <select id="CompanySize">
+            <option value="50-100">50-100 employees</option>
+            <option value="500">500+ employees</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="Subject" >Subject</label>
+          <select id="Subject">
+            <option value="landing">Building Landing pages</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="alternatives">Finding new alternatives</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-group full-width">
+        <label for="textarea">Message</label>
+        <textarea id="textarea" rows="5"></textarea>
+      </div>
+
+      <button type="submit">Contact Sales</button>
+    </form>
+  </main>
+</body>
+
+</html>
